@@ -14,6 +14,7 @@ def gradient_f(x: float, y: float) -> tuple:
     # Your code here
     dfdx = 2*x + 2
     dfdy = 2*y + 4
+    return (dfdx, dfdy)
 
 def gradient_descent(starting_values: tuple, learning_rate: float, num_iterations: int) -> tuple:
     '''
